@@ -23,3 +23,11 @@ const stringToNumber = (str) => {
   return num;
 };
 addStrings("1234", "12");
+
+
+// solution-2
+// const addStrings = (s, t) => {
+//   s = s - 0;          //converted the string into number using operators if 
+//   t = t - 0;             u perform subtraction , division on strings those are typecasted to
+//   return s + t;          numbers
+// };
